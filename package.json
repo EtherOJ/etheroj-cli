@@ -1,0 +1,19 @@
+{
+  "name": "cov-manage-cli",
+  "version": "1.0.0",
+  "description": "Toolset for managing CovOJ.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Xiaodai Dai",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "extract-zip": "^2.0.0",
+    "progress": "^2.0.3",
+    "yaml": "^1.10.0"
+  }
+}
