@@ -15,7 +15,7 @@ async function getTitle(repo, pid){
         .data
         .content;
     const d = yaml.parse(base64.decode(k));
-    return { name: pid, title: d.name };
+    return { id: pid, name: d.name };
 }
 
 module.exports = async function createIndex(repo){
